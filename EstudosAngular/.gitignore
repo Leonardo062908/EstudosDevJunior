@@ -1,0 +1,40 @@
+# Angular build output
+/dist
+/tmp
+/out-tsc
+/.angular/cache
+
+# Compiled source
+/bazel-out
+.sass-cache
+
+# Node modules
+/node_modules
+npm-debug.log*
+yarn-error.log*
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# Test coverage
+/coverage
+
+# Misc
+/connect.lock
+/libpeerconnection.log
+testem.log
+/typings
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (em times que não versionam)
+# package-lock.json
+# yarn.lock
