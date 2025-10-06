@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BuscaAcoesPageComponent } from './pages/busca-acoes-page.component';
+import { BuscaAcoesPageComponent } from './pages/busca-acoes-page/busca-acoes-page.component';
 
 const routes: Routes = [
   {
