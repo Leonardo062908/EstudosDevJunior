@@ -7,6 +7,6 @@ console.log(n1, n3, n5, n6); // 10 9 8 0
 
 const [, [, nota]] = [
   [, 8, 8],
-  [9, 6, 8],
+  [9, 6, 8], //Aqui há um array dentro de outro array, ignorando o primeiro elemento do array externo e o primeiro elemento do array interno. Pegando apenas o segundo elemento do array interno.
 ];
 console.log(nota); // 6
