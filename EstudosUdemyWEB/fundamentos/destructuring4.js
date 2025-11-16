@@ -10,4 +10,4 @@ console.log(rand([50, 40]));
 console.log(rand([992])); //Aqui, max assume o valor padrão de 1000
 console.log(rand([, 10])); //Aqui, min assume o valor padrão de 0
 console.log(rand([])); //Aqui, tanto min quanto max assumem seus valores padrão
-console.log(rand()); //Erro, pois está tentando desestruturar algo que é undefined
+//console.log(rand()); //Erro, pois está tentando desestruturar algo que é undefined
